@@ -1,5 +1,4 @@
 # 🌌 Astrostatistics — IAG, USP 2025
-University of Hertfordshire
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/RafaelSdeSouza/astrostats-2025/HEAD)
 
@@ -9,7 +8,7 @@ University of Hertfordshire
 **Rafael S. de Souza**  
 [Research Profile](https://researchprofiles.herts.ac.uk/en/persons/rafael-da-silva-de-souza)  
 📧 rd23aag@herts.ac.uk
-
+University of Hertfordshire
 ---
 
 ## 🎯 Course Objectives
