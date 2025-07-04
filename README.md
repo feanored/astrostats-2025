@@ -1,6 +1,6 @@
 # 🌌 Astrostatistics — IAG, USP 2025
 <a href="https://iag.usp.br">
-  <img src="https://imagens.usp.br/wp-content/uploads/2012/03/logotipo-instituto-de-astronomia-geofisica-e-ciencias-atmosfericas-institutos-faculdades-e-escolas.png" alt="IAG USP Logo" height="60">
+  <img src="[https://imagens.usp.br/wp-content/uploads/2012/03/logotipo-instituto-de-astronomia-geofisica-e-ciencias-atmosfericas-institutos-faculdades-e-escolas.png](https://imagens.usp.br/wp-content/uploads/IAG.jpg)" alt="IAG USP Logo" height="60">
 </a>
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/RafaelSdeSouza/astrostats-2025/HEAD)
