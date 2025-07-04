@@ -4,8 +4,6 @@
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/RafaelSdeSouza/astrostats-2025/HEAD)
 
----
-
 ## 👨‍🏫 Instructor  
 **Prof. Rafael S. de Souza**  
 [Research Profile](https://researchprofiles.herts.ac.uk/en/persons/rafael-da-silva-de-souza)  
