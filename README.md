@@ -1,7 +1,7 @@
 <h1 style="display: flex; justify-content: space-between; align-items: center;">
   🌌 Astrostatistics — IAG, USP 2025
   <a href="https://iag.usp.br">
-    <img src="https://imagens.usp.br/wp-content/uploads/IAG.jpg" alt="IAG USP Logo" height="40">
+    <img src="https://imagens.usp.br/wp-content/uploads/IAG.jpg" alt="IAG USP Logo" height="10">
   </a>
 </h1>
 
