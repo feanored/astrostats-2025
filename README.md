@@ -1,6 +1,6 @@
 <img align="right" src="https://imagens.usp.br/wp-content/uploads/IAG.jpg" width="100">
 
-# 🌌 Astrostatistics — IAG, USP 2025
+# 🌌 Astrostatistics — IAG, 2025
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/RafaelSdeSouza/astrostats-2025/HEAD)
 
