@@ -1,7 +1,10 @@
-# 🌌 Astrostatistics — IAG, USP 2025
-<a href="https://iag.usp.br">
-  <img src="https://imagens.usp.br/wp-content/uploads/IAG.jpg" alt="IAG USP Logo" height="6">
-</a>
+<h1 style="display: flex; justify-content: space-between; align-items: center;">
+  🌌 Astrostatistics — IAG, USP 2025
+  <a href="https://iag.usp.br">
+    <img src="https://imagens.usp.br/wp-content/uploads/IAG.jpg" alt="IAG USP Logo" height="40">
+  </a>
+</h1>
+
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/RafaelSdeSouza/astrostats-2025/HEAD)
 
