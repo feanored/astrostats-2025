@@ -5,11 +5,12 @@
 ---
 
 ## 👨‍🏫 Instructor  
-**Rafael S. de Souza**  
+**Prof. Rafael S. de Souza**  
 [Research Profile](https://researchprofiles.herts.ac.uk/en/persons/rafael-da-silva-de-souza)  
-📧 rd23aag@herts.ac.uk
-University of Hertfordshire
----
+📧 rd23aag@herts.ac.uk  
+Affiliation: University of Hertfordshire  
+*Lecturing at*: Instituto de Astronomia, Geofísica e Ciências Atmosféricas (IAG), Universidade de São Paulo – 2025
+
 
 ## 🎯 Course Objectives
 
