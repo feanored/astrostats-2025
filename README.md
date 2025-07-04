@@ -1,4 +1,4 @@
-# 🌌 Astrostatistics — 2025 Edition  
+# 🌌 Astrostatistics — IAG, USP 2025
 University of Hertfordshire
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/RafaelSdeSouza/astrostats-2025/HEAD)
