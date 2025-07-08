@@ -69,9 +69,9 @@ plot_model <- function(grid, prob_col, df, title) {
     geom_raster(data = grid, aes(x = x1, y = x2, fill = !!as.name(prob_col)), interpolate = TRUE) +
     geom_contour(data = grid, aes(x = x1, y = x2, z = !!as.name(prob_col)),
                  breaks = 0.5, color = "white", size = 0.8) +
-    geom_point(data = df, aes(x = x1, y = x2, color = class), size = 1.5, alpha = 0.6) +
-    scale_fill_viridis(name = "P(class=1)", option = "magma") +
-    scale_color_manual(values = c("orange", "cyan3")) +
+    geom_point(data = df, aes(x = x1, y = x2, color = class,shape=class), size = 2) +
+    scale_fill_continuous_sequential(name = "P(class=1)","Light Grays") +
+    scale_color_manual(values = c("orange", "red2")) +
     coord_equal() +
     labs(title = title, x = "x1", y = "x2") +
     theme_minimal(base_size = 14) +
