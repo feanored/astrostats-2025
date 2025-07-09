@@ -8,9 +8,6 @@ library(patchwork)      # empilhar plots
 #    (assumindo: espaço/tab, sem cabeçalho, 1000 colunas)
 spec_mat <- as.matrix(read.table("sdss_spectra_1000.dat", header = FALSE))
 
-# Opcional: eixo λ
-wave_vec <- scan("sdss_wavelength.csv", skip = 1)   # se salvou antes
-
 # -------------------------------------------------------------
 # 2. PCA  ------------------------------------------------------
 #    (centra cada coluna; não escalona para σ=1, pois fluxos já
@@ -27,22 +24,15 @@ df_var <- tibble(PC = 1:length(var_explained),
                  var = var_explained,
                  cumvar = cumvar)
 
-p1 <- ggplot(df_var, aes(PC, var)) +
-  geom_col(fill = "steelblue") +
-  labs(y = "Variance explained", x = "Principal Component") +
-  theme_minimal()
 
-p2 <- ggplot(df_var, aes(PC, cumvar)) +
+ggplot(df_var, aes(PC, cumvar)) +
   geom_line() + geom_point() +
   labs(y = "Cumulative variance", x = "PC") +
-  ylim(0, 1) +
-  theme_minimal()
-
-p1 + p2 + plot_layout(nrow = 1)
+  ylim(0, 1) + xlim(0,200)
 
 # -------------------------------------------------------------
 # 4. Reconstrução com k PCs -----------------------------------
-k_choice <- 100   # << ajuste aqui
+k_choice <- 2  # << ajuste aqui
 
 # Pontuações k-dimensionais
 scores_k <- pca$x[, 1:k_choice]
@@ -56,7 +46,6 @@ spec_recon <- sweep(spec_recon, 2, pca$center, "+")  # devolve média
 
 # -------------------------------------------------------------
 # 5. Comparação visual ----------------------------------------
-set.seed(42)
 idx_show <- sample(1:nrow(spec_mat), 4)   # 4 espectros aleatórios
 
 plots <- lapply(idx_show, function(i) {
