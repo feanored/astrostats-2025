@@ -2,6 +2,18 @@ library(keras)
 library(tidyverse)
 library(Rtsne)
 
+library(hdf5r)
+
+# Abrir o arquivo HDF5
+f <- H5File$new("Binary_2_5_dataset.h5", mode = "r")
+
+# Ler as imagens e os labels
+dims <- f[["images"]]$dims
+labels <- f[["labels"]][]
+
+# Fechar o arquivo
+f$close_all()
+
 # CIFAR-10
 cifar <- dataset_cifar10()
 x_train <- cifar$train$x / 255
