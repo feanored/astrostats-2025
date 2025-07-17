@@ -22,7 +22,7 @@ xx <- seq(0, 6, length = 200)
 ypred <- predict(fit, newdata = list(x1 = xx), type = "response")
 
 # Visualização do ajuste
-plot(x1, y, pch = 19, col = "red", main = "Modelo Linear com Transformações")
+plot(x1, y, pch = 19, col = "red")
 lines(xx, ypred, col = 'black', lwd = 4, lty = 2)             # Linha predita pelo modelo
 lines(xx, 1 - 3 * xx + 8 * sin(xx^2), col = 'blue', lwd = 2)  # Linha verdadeira
 segments(x1, fitted(fit), x1, y, lwd = 2, col = "gray")       # Resíduos
