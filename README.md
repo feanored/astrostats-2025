@@ -23,12 +23,10 @@ Through a blend of theoretical derivations and practical coding exercises, parti
 ## 🧠 Topics Covered
 
 - Generalized Linear Models (GLMs)
-- Neural Networks
-- Bayesian Inference
+- Random Forest, Generalized Additive Models
+- Neural Networks (MLPs, CNNs, RNNs)
 - Dimensionality Reduction
 - Clustering & Unsupervised Learning
-- Model Evaluation & Selection
-
 ---
 
 ## 📦 Requirements
