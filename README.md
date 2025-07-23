@@ -29,11 +29,11 @@ Through a blend of theoretical derivations and practical coding exercises, parti
 - Clustering & Unsupervised Learning
 ---
 
-## 📦 Requirements
+## 📦 References
 
-- Python 3.10+
-- Jupyter Notebooks
-- Libraries: `numpy`, `matplotlib`, `scikit-learn`, `pymc`, `astropy`, `seaborn`, etc.
+- [Goodfellow et al., *Deep Learning* (2016)](https://www.deeplearningbook.org/)
+- [Bishop, *Pattern Recognition and Machine Learning* (2006)](https://www.springer.com/gp/book/9780387310732)
+- [Srivastava et al., "Dropout" (2014)](http://jmlr.org/papers/v15/srivastava14a.html)
 
 ---
 
