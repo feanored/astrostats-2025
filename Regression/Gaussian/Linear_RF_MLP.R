@@ -31,7 +31,7 @@ segments(x1, fitted(fit), x1, y, lwd = 2, col = "gray")       # Resíduos
 # 3. Ajuste com Random Forest
 # -------------------------------------------------------------
 library(randomForest)
-fitRF <- randomForest(y ~ x1)       # Ajuste com Random Forest
+fitRF <- randomForest(y ~ x1,ntree=1,maxnodes = 500)       # Ajuste com Random Forest
 print(fitRF)                        # Exibe resumo do modelo
 
 # Predição no grid
@@ -39,7 +39,7 @@ ypredRF <- predict(fitRF, newdata = list(x1 = xx), type = "response")
 
 # Visualização do ajuste
 plot(x1, y, pch = 19, col = "red", main = "Random Forest")
-lines(xx, ypredRF, col = 'black', lwd = 4, lty = 2)            # Linha predita pelo RF
+lines(xx, ypredRF, col = 'black', lwd = 4)            # Linha predita pelo RF
 lines(xx, 1 - 3 * xx + 8 * sin(xx^2), col = 'blue', lwd = 2)   # Linha verdadeira
 #segments(x1, fitRF$predicted, x1, y, lwd = 2, col = "gray")    # Resíduos
 
