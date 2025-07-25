@@ -11,6 +11,8 @@ x1 <- runif(nobs, 0, 6)            # Covariável uniforme entre 0 e 6
 mu <- 1 - 3 * x1 + 8 * sin(x1^2)   # Linha verdadeira (modelo gerador)
 y <- rnorm(nobs, mu, sd=1)         # Variável resposta com ruído normal
 
+
+
 # -------------------------------------------------------------
 # 2. Ajuste do Modelo Linear com Transformações Não-lineares
 # -------------------------------------------------------------
