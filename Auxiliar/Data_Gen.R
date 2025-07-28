@@ -11,12 +11,6 @@ dir.create("toydata", showWarnings = FALSE)   # pasta‑alvo
 
 np <- import("numpy") # interface ao NumPy
 
-save_all <- function(df, name) {
-  csv  <- file.path("toydata", paste0(name, ".csv"))
-  npy  <- file.path("toydata", paste0(name, ".npy"))
-  write.csv(df, csv, row.names = FALSE)
-  np$save(npy, as.matrix(df))  # matriz simples p/ Python
-}
 
 x  <- runif(n, -4, 10)
 y  <- 3 + 2 * x + rnorm(n, 0, 1)
@@ -45,6 +39,21 @@ save_all(df, "Case3")
 
 
 
+# 1. Simulate two rings for a strongly nonlinear boundary
+n_per <- 500
+# angles uniform
+theta <- runif(2*n_per, 0, 2*pi)
+# radii: half in inner circle (r<3), half in outer annulus (4<r<6)
+r_inner <- sqrt(runif(n_per, 0, 3^2))
+r_outer <- sqrt(runif(n_per, 4^2, 6^2))
+r <- c(r_inner, r_outer)
+x1 <- r * cos(theta)
+x2 <- r * sin(theta)
+y  <- factor(rep(c(0,1), each = n_per))
+
+df <- data.frame(x1 = x1, x2 = x2, y = y)
+write.csv(df, "Case4", row.names = FALSE)
+np$save("Case4", as.matrix(df))  #
 
 
 

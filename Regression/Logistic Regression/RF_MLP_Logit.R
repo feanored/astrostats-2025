@@ -3,6 +3,7 @@ library(ggplot2)
 library(viridis)
 library(nnet)
 library(randomForest)
+require(colorspace)
 
 #--------------------------
 # 1. Spiral Data Generator

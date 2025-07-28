@@ -18,6 +18,10 @@ y  <- factor(rep(c(0,1), each = n_per))
 
 df <- data.frame(x1 = x1, x2 = x2, y = y)
 
+
+
+
+
 # 2. Fit polynomial logistic regression (2nd-degree + interaction)
 log_mod_nl <- glm(y ~ poly(x1, 2) + poly(x2, 2) + I(x1*x2),
                   family = binomial, data = df)
@@ -36,7 +40,7 @@ ggplot() +
   geom_raster(data = grid, aes(x = x1, y = x2, fill = prob), interpolate = TRUE) +
   # decision contour at p = 0.5
   geom_contour(data = grid, aes(x = x1, y = x2, z = prob),
-               breaks = 0.5, color = "white", size = 1) +
+               breaks = 0.5, color = "white", linewidth = 1) +
   # raw data points
   geom_point(data = df, aes(x = x1, y = x2, color = y), size = 1.5, alpha = 0.6) +
   # scales & theme
@@ -45,8 +49,6 @@ ggplot() +
   coord_equal() +
   theme_minimal(base_size = 14) +
   labs(
-    title    = "Nonlinear (Polynomial) Logistic Regression",
-    subtitle = "Concentric rings simulated; model includes x1^2, x2^2, and interaction",
     x        = "x1",
     y        = "x2"
   ) +
