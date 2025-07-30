@@ -30,7 +30,7 @@ Through a blend of theoretical derivations and practical coding exercises, parti
 ---
 
 ## 📦 References
-
+- [Deep Learning with Keras](https://kitchell.github.io/DeepLearningTutorial/1introtodeeplearning.html)
 - [Goodfellow et al., *Deep Learning* (2016)](https://www.deeplearningbook.org/)
 - [Bishop, *Pattern Recognition and Machine Learning* (2006)](https://www.springer.com/gp/book/9780387310732)
 - [Srivastava et al., "Dropout" (2014)](http://jmlr.org/papers/v15/srivastava14a.html)
