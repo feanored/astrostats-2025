@@ -36,6 +36,8 @@ Through a blend of theoretical derivations and practical coding exercises, parti
 - [Srivastava et al., "Dropout" (2014)](http://jmlr.org/papers/v15/srivastava14a.html)
 
 ---
+## 📦 Dataset
+- [Galaxy zoo data](https://drive.google.com/file/d/1MaxKdHmLUyW6jMfL0ZT0uKjWrn7Pf9kN/view?usp=sharing)
 
 ## 🚀 Getting Started
 
