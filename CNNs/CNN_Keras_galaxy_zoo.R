@@ -1,5 +1,9 @@
 # Load libraries
+
 library(keras)
+use_implementation("keras")     # se estiver usando o pacote `tensorflow`, pode alternar com "tensorflow"
+use_backend("tensorflow")       # assegura que está usando TF backend
+
 library(tidyverse)
 library(Rtsne)
 library(hdf5r)
