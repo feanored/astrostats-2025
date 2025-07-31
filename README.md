@@ -30,12 +30,16 @@ Through a blend of theoretical derivations and practical coding exercises, parti
 ---
 
 ## 📦 References
+- [GMMs](https://github.com/COINtoolbox/GMM_Catalogue/blob/master/Tutorial/GMM_Python.ipynb)
+- [QRPCA, de Souza 2022](https://ui.adsabs.harvard.edu/abs/2022A%26C....4100633D/abstract)
 - [Deep Learning with Keras (2018)](https://kitchell.github.io/DeepLearningTutorial/1introtodeeplearning.html)
 - [Goodfellow et al., *Deep Learning* (2016)](https://www.deeplearningbook.org/)
 - [Bishop, *Pattern Recognition and Machine Learning* (2006)](https://www.springer.com/gp/book/9780387310732)
 - [Srivastava et al., "Dropout" (2014)](http://jmlr.org/papers/v15/srivastava14a.html)
 
 ---
+## 📦 Dataset
+- [Galaxy zoo data](https://drive.google.com/file/d/1MaxKdHmLUyW6jMfL0ZT0uKjWrn7Pf9kN/view?usp=sharing)
 
 ## 🚀 Getting Started
 
